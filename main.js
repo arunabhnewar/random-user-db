@@ -17,7 +17,7 @@ function displayUser(user) {
     display.style.color = 'brown';
 
     // set inner text and user image 
-    profile.src = `https://randomuser.me/api/portraits/women/96.jpg`
+    profile.src = `${user.picture.large}`
     intro.innerText = `Hi, My name is`
     display.innerText = `${user.name.title} ${user.name.first} ${user.name.last}`
 
@@ -56,5 +56,5 @@ function displayUser(user) {
         intro.innerText = `Hi, My name is`
         display.innerText = `${user.login.password}`
     })
-    // console.log(user);
+    console.log(user);
 }
