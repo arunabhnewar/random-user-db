@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!---bootstrap stylesheet------------>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!---font awesome----------------->
+    <script src="https://kit.fontawesome.com/4fa42c0453.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="m-5 overflow-hidden d-flex align-items-center">
+
+    <section class="container ">
+        <div class="w-75 mx-auto p-5 bg-warning rounded">
+            <div class="profile-img d-flex justify-content-center">
+                <img id="profile" width="200px" height="200px" class="border rounded-circle" src="" alt="">
+            </div>
+            <p id="intro" class="text-center mb-0 mt-3"></p>
+            <h3 id="display" class="text-center mt-2"></h3>
+
+            <div class="button-holder mt-5 mb-3 d-flex justify-content-center">
+                <button id="userName" class="btn"><i class="fas fa-user-tie"></i></button>
+                <button id="email" class="btn"><i class="far fa-envelope"></i></button>
+                <button id="dob" class="btn"><i class="fas fa-calendar-alt"></i></button>
+                <button id="phone" class="btn"><i class="fas fa-phone"></i></button>
+                <button id="address" class="btn"><i class="fas fa-street-view"></i></button>
+                <button id="password" class="btn"><i class="fas fa-lock"></i></button>
+            </div>
+
+            <div class="d-flex justify-content-center">
+                <button onclick="loadUser()" class="btn  btn-success">Load User</button>
+            </div>
+        </div>
+    </section>
+
+    <!---script js------------------>
+    <script src="/main.js"></script>
+</body>
+
+</html>

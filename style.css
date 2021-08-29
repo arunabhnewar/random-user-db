@@ -1,0 +1,16 @@
+* {
+    color: white;
+}
+
+fas {
+    font-size: 30px;
+    color: white;
+}
+
+button {
+    margin: 10px;
+}
+
+#display {
+    height: 50px;
+}
